@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashi-Fy</title>
+    <link rel="stylesheet" href="spot.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <header>
+         <!--searchbar end-->
+    <div class="search-box">
+        <input class="search-txt" type="text" id="myinput" placeholder="Type to search" onkeyup="search()">
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+    </a>
+    </div>
+    <!--searchbar end-->
+                <!-- sidebar start -->
+                <div id="sidebar" onclick="togglemenu()">
+                    <div class="toggle-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="log.html">Log In</a></li>
+                        <li><a href="motivation.html">Motivation</a></li>
+                        <li><a href="game.html">Games</a></li>
+                        <li><a href="rpsp.html">Rock paper scisor</a></li>
+                        <li><a href="ttt.html">Tic Tac Toe</a></li>
+                        <li><a href="mailto:ashwini072004@gmail.com">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- sidebar end -->
+                <div class="logo">
+                <nav>
+                    <ul>
+                        <li><img src="logo.png"></li>
+                    </ul>
+                </nav>
+            </div>
+             </header> 
+    <main>
+<div class="container">
+    <div class="songList">
+        <h1>Best songs</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="sri.jpg">
+                <span class="songName">Srivalli </span>
+                <span class="songlistplay"><span class="timestamp">03:44  <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="mastc.jpg">
+                <span class="songName">Man mast magan               </span>
+                <span class="songlistplay"><span class="timestamp">04:40  <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="ilahic.jpg">
+                <span class="songName">Ilahi</span>
+                <span class="songlistplay"><span class="timestamp">03:52  <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="ar.jpg">
+                <span class="songName">Aarambh Hai Prachand</span>
+                <span class="songlistplay"><span class="timestamp">04:57  <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="sri.jpg">
+                <span class="songName">Srivall</span>
+                <span class="songlistplay"><span class="timestamp">05:32  <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="sri.jpg">
+                <span class="songName">Srivall</span>
+                <span class="songlistplay"><span class="timestamp">05:32  <i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+            </div>
+        </div>
+    </div>
+    <div class="songBanner"></div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+    </div>
+    <div class="songInfo">
+        <img src="playing.gif" width="50px" id="gif"> 
+        <span Id="masterSongName">Srivalli</span>
+    </div>
+</div>
+    </main>
+    <footer>
+
+    </footer>   
+    <script src="https://kit.fontawesome.com/5fcc3e8f69.js" crossorigin="anonymous"></script>
+    <script src="spot.js"></script>
+</body>
+</html>
